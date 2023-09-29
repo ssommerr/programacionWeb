@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Mitr&display=swap');
+
+*{
+    padding:0%;
+    margin:0%;
+}
+
+
+html{
+    font-size: 1.5rem;
+}
+#container {
+    display: flex; /* Utilizamos flexbox para alinear elementos en línea */
+    align-items: center; /* Alinea verticalmente en el centro */
+    
+  
+}
+#h1{
+    font-size: 70px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+
+nav {
+    text-align: center; /* Centra el contenido horizontalmente */ }
+  
+nav ul {
+    list-style: none; /* Quita los puntos de lista */
+    padding: 0; /* Elimina el espacio interno en la lista */
+    margin: 0; /* Elimina el margen externo de la lista */
+  }
+   
+nav ul li {
+    display: inline-block;
+    margin: 0 10px; /* Agrega margen horizontal para espaciar los elementos */
+    background-color:black;
+    color: whitesmoke;
+    font-family: 'Inclusive Sans', sans-serif;
+    text-decoration: none;
+  }
+a{
+text-decoration: none;    
+color: whitesmoke;
+font-size: 30px;
+
+}
+#cajanav {
+    background-color: black;
+}
+#Fotoprincipal{
+    text-align: center;
+   
+}
+
+.imagbackground1{
+    background-image: url(../../imagenes/salto-tandem-paracaidas-1.jpg);
+    background-size: 100% auto;
+    min-height: 60vw;
+    background-repeat: no-repeat;
+    
+}
+.Verso{
+    font-family: 'Mitr', sans-serif;
+    text-align: left;
+    font-size: 50px;
+    color: whitesmoke;
+    padding: 1px;
+    margin: 10px;
+   
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-right: 150px;
+    margin-left: 80px;
+    
+
+
+}
+#principales{
+    margin-top: 25vw;
+    font-size: 5vw;
+}
+#linkjoin { 
+    text-align: center;
+    font-family:  'Inclusive Sans', sans-serif ;
+
+    
+
+}
+
+#Fromeverywhere{
+    text-align: left;
+    font-family:   'Mitr', sans-serif ;
+    margin-top: 25vw;
+    font-size: 5vw;
+    padding: 1px;
+    margin: 20px;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    margin-right: 150px;
+    margin-left: 80px;
+    
+
+
+}
+#Atanytime{
+    text-align: left;
+    font-family:   'Mitr', sans-serif ;
+    color: whitesmoke;
+    margin-top: 1vw;
+    font-size: 5vw;
+    margin-bottom: 1px;
+    margin-right: 150px;
+    margin-left: 80px;
+    padding: 0px 5px 0px 5px
+
+
+}
+.imagbackground2{
+    background-image: url(../../imagenes/salto-tandem-paracaidas-1.jpg);
+    background-size: 100% auto;
+    min-height: 60vw;
+    background-repeat: no-repeat;
+
+}
+#P1 {
+    text-align: center;
+    font-family:  'Inclusive Sans', sans-serif ;
+    background-color:gray;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 75px;
+    margin-bottom: 102px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+}
+#P2 {
+    text-align: center;
+    font-family:  'Inclusive Sans', sans-serif ;
+    background-color:gray;
+    border: 2px solid gray;
+    border-radius: 2px;
+    margin-bottom: 102px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+}
+#P3 {
+    text-align: center;
+    font-family:  'Inclusive Sans', sans-serif ;
+    background-color:gray;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 102px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+}
+
+#trends{
+  background-color: lightskyblue;
+  border: 2px solid lightskyblue;
+  border-radius: 5px;
+  text-align: center;
+  font-family:  'Inclusive Sans', sans-serif ;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Divide en tres columnas iguales */
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+.grid-item {
+    text-align: center; /* Alinea el contenido en el centro */
+}
+
+  
+  
+  
+  
+  
