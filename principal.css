@@ -18,29 +18,40 @@ html{
   
 }
 #h1{
-    font-size: 70px;
+    font-size: 50%;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 100%;
 }
 
 
 
 nav {
-    text-align: center; /* Centra el contenido horizontalmente */ }
+    text-align: center; 
+    position: sticky;
+   
+    
+ }
   
 nav ul {
-    list-style: none; /* Quita los puntos de lista */
-    padding: 0; /* Elimina el espacio interno en la lista */
-    margin: 0; /* Elimina el margen externo de la lista */
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    top: 0;
   }
+  
+  
    
 nav ul li {
     display: inline-block;
-    margin: 0 10px; /* Agrega margen horizontal para espaciar los elementos */
+    margin: 0vw ; 
     background-color:black;
     color: whitesmoke;
     font-family: 'Inclusive Sans', sans-serif;
     text-decoration: none;
+    position: sticky;
   }
 a{
 text-decoration: none;    
@@ -48,8 +59,10 @@ color: whitesmoke;
 font-size: 30px;
 
 }
+
 #cajanav {
     background-color: black;
+    position: sticky;
 }
 #Fotoprincipal{
     text-align: center;
@@ -57,38 +70,31 @@ font-size: 30px;
 }
 
 .imagbackground1{
-    background-image: url(../../imagenes/salto-tandem-paracaidas-1.jpg);
+    background-image: url(../imagenes/salto-tandem-paracaidas-1.jpg);
     background-size: 100% auto;
     min-height: 60vw;
     background-repeat: no-repeat;
+    margin-bottom: 0%;
     
 }
 .Verso{
     font-family: 'Mitr', sans-serif;
     text-align: left;
-    font-size: 50px;
-    color: whitesmoke;
-    padding: 1px;
-    margin: 10px;
    
-    margin-top: 10px;
-    margin-bottom: 1px;
-    margin-right: 150px;
-    margin-left: 80px;
+    color: whitesmoke;
+    position: absolut;
+    bottom: 0;
+    margin: 1vw;
+   
     
 
-
+}
+#textoFoto{
+    font-size: 5vw;
 }
 #principales{
     margin-top: 25vw;
     font-size: 5vw;
-}
-#linkjoin { 
-    text-align: center;
-    font-family:  'Inclusive Sans', sans-serif ;
-
-    
-
 }
 
 #Fromeverywhere{
@@ -96,13 +102,13 @@ font-size: 30px;
     font-family:   'Mitr', sans-serif ;
     margin-top: 25vw;
     font-size: 5vw;
-    padding: 1px;
-    margin: 20px;
+    padding: 0vw;
+    margin: 5vw;
     color: whitesmoke;
-    margin-top: 20px;
-    margin-bottom: 1px;
-    margin-right: 150px;
-    margin-left: 80px;
+    margin-top: 5vw;
+    margin-bottom: 1vw;
+    margin-right: 15vw;
+    margin-left: 7vw;
     
 
 
@@ -113,71 +119,85 @@ font-size: 30px;
     color: whitesmoke;
     margin-top: 1vw;
     font-size: 5vw;
-    margin-bottom: 1px;
-    margin-right: 150px;
-    margin-left: 80px;
-    padding: 0px 5px 0px 5px
+    margin-bottom: 1vw;
+    margin-right: 15vw;
+    margin-left: 7vw;
+  
+   
 
 
 }
+
 .imagbackground2{
-    background-image: url(../../imagenes/salto-tandem-paracaidas-1.jpg);
+    background-image: url(imagenes/foto.jpg);
     background-size: 100% auto;
     min-height: 60vw;
     background-repeat: no-repeat;
+    margin-top: 0vw;
+    font-family:   'Mitr', sans-serif ;
+ 
 
 }
+.Paragraph{
+ font-size: 2vw;   
+}
 #P1 {
+    font-size: 2.5vw;
     text-align: center;
-    font-family:  'Inclusive Sans', sans-serif ;
+    font-family: 'Mitr', sans-serif  ;
     background-color:gray;
-    border: 2px solid gray;
-    border-radius: 5px;
-    margin-top: 75px;
-    margin-bottom: 102px;
-    margin-right: 150px;
-    margin-left: 80px;
+    border:  solid gray;
+    border-radius: 2vw;
+    margin-top: 0vw;
+    margin-bottom: 10vw;
+    margin-right: 10vw;
+    margin-left: 5vw;
 
 }
 #P2 {
+    font-size: 2.5vw;
     text-align: center;
-    font-family:  'Inclusive Sans', sans-serif ;
+    font-family:  'Mitr', sans-serif  ;
     background-color:gray;
-    border: 2px solid gray;
-    border-radius: 2px;
-    margin-bottom: 102px;
-    margin-right: 150px;
-    margin-left: 80px;
-
+    border:  solid gray;
+    border-radius: 2vw;
+    margin-top: 0vw;
+    margin-bottom: 10vw;
+    margin-right: 10vw;
+    margin-left: 5vw;
 }
 #P3 {
+    font-size: 2.5vw;
     text-align: center;
-    font-family:  'Inclusive Sans', sans-serif ;
+    font-family:  'Mitr', sans-serif  ;
     background-color:gray;
     border: 2px solid gray;
-    border-radius: 5px;
-    margin-bottom: 102px;
-    margin-right: 150px;
-    margin-left: 80px;
+    border-radius: 2vw;
+    margin-top: 0vw;
+    margin-bottom: 1vw;
+    margin-right: 10vw;
+    margin-left: 5vw;
+
+}
+#Link{
+    font-size: 2vw;
+    color: whitesmoke;
 
 }
 
-#trends{
-  background-color: lightskyblue;
-  border: 2px solid lightskyblue;
-  border-radius: 5px;
-  text-align: center;
-  font-family:  'Inclusive Sans', sans-serif ;
+.ingresardato{
+    font-size: 2.5vw;
+    text-align: center;
+    color: whitesmoke;
+    font-family:  'Mitr', sans-serif  ;
+    background-color:gray;
+    border: 2px solid gray;
+    border-radius: 2vw;
+    margin-top: 0vw;
+    margin-bottom: 1vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
 
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Divide en tres columnas iguales */
-    gap: 20px; /* Espacio entre las columnas */
-}
-
-.grid-item {
-    text-align: center; /* Alinea el contenido en el centro */
 }
 
   
